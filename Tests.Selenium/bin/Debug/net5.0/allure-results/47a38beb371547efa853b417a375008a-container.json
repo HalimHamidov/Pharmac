@@ -1,0 +1,106 @@
+{
+  "uuid": "05de9dcd-700b-4727-8295-171248307b1f-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.ManagerPage_CheckManagerEndpoints_ManagerDeleteAddCheckedTest",
+  "children": [
+    "14073691-20d3-4d4e-96a1-a25e433bd333-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    },
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    },
+    {
+      "name": "TestTearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618941182088,
+      "stop": 1618941182088
+    }
+  ],
+  "links": [],
+  "start": 1618941156180,
+  "stop": 1618941182122
+}

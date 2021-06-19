@@ -1,0 +1,76 @@
+{
+  "uuid": "a3d15a8e-e9c9-4bcf-a2bc-c7884f68f059-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.LoginPage_LoginAsAdmin_IsLogined",
+  "children": [
+    "76a84913-6112-403d-87c8-e1ec6d681d28-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620133932821,
+      "stop": 1620133932821
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620133932821,
+      "stop": 1620133932821
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620133932821,
+      "stop": 1620133932821
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620133932821,
+      "stop": 1620133932821
+    }
+  ],
+  "links": [],
+  "start": 1620133926539,
+  "stop": 1620133932853
+}

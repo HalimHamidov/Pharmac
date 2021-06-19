@@ -1,0 +1,108 @@
+{
+  "uuid": "2ed7b7e2-672d-4511-94f1-8e417b859422-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.ManagerPage_CheckManagerEndpoints_ManagerDeleteAddCheckedTest",
+  "children": [
+    "4f5ba926-e305-4915-987c-297364401516-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "SequentialTestCaseBroken",
+        "trace": "   at Tests.Selenium.BaseTestSequential.DoBeforeEach() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\BaseTestSequential.cs:line 72\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    },
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    },
+    {
+      "name": "TestTearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618942050935,
+      "stop": 1618942050935
+    }
+  ],
+  "links": [],
+  "start": 1618942050927,
+  "stop": 1618942050948
+}

@@ -1,0 +1,24 @@
+﻿{
+  "StartLogin": "khurshed",
+  "StartLoginPassword": "aA11111+",
+  
+  "users": [
+    {
+      "surName": "Khurshed",
+      "firstName": "Nosirov",
+      "patronymic": "Nosirovich",
+      "login": "khurshed",
+      "password": "aA11111+"
+    },
+    {
+      "surName": "Эплджек",
+      "firstName": "Пони",
+      "patronymic": "Петровна",
+      "login": "Applejack",
+      "password": "Applejack",
+      "isBitlInsider": true,
+      "isIssuerInsider": true
+    }
+
+  ]
+}

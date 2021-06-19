@@ -1,0 +1,78 @@
+{
+  "uuid": "2adbedd2-1f61-4df9-9f5d-c8e7ca583dbf-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted",
+  "children": [
+    "3ca10ca6-f2d1-479b-816a-43c5ae366658-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620242512751,
+      "stop": 1620242512751
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "SequentialTestCaseBroken",
+        "trace": "   at Tests.Selenium.BaseTestSequential.DoBeforeEach() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\BaseTestSequential.cs:line 72\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620242512751,
+      "stop": 1620242512751
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620242512751,
+      "stop": 1620242512751
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620242512751,
+      "stop": 1620242512751
+    }
+  ],
+  "links": [],
+  "start": 1620242512750,
+  "stop": 1620242512755
+}

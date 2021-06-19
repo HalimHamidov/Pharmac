@@ -1,0 +1,110 @@
+{
+  "uuid": "4ff53c4e-afc6-4151-90fb-0a77cfa68c77-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.ManagerPage_CheckManagerEndpoints_ManagerDeleteAddCheckedTest",
+  "children": [
+    "e5383af1-3d6a-4f45-952f-40aeca53e09b-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479991,
+      "stop": 1618937479991
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479991,
+      "stop": 1618937479991
+    },
+    {
+      "name": "TestSetup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=90.0.4430.72)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass4_0.<UrlContains>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 27\r\n   at Tests.Selenium.PageObjects.LoginPageObject..ctor(IWebDriver webDriver) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\LoginPageObject.cs:line 18\r\n   at Tests.Selenium.Services.LoginService.Login(IWebDriver driver, String login, String password, Action screenshotAction, Boolean closeTutorial) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\LoginService.cs:line 22\r\n   at Tests.Selenium.ManagerEndpointsTests.TestSetup() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 35\r\n--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479992,
+      "stop": 1618937479992
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479993,
+      "stop": 1618937479993
+    },
+    {
+      "name": "TestTearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=90.0.4430.72)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass4_0.<UrlContains>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 27\r\n   at Tests.Selenium.PageObjects.LoginPageObject..ctor(IWebDriver webDriver) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\LoginPageObject.cs:line 18\r\n   at Tests.Selenium.Services.LoginService.Login(IWebDriver driver, String login, String password, Action screenshotAction, Boolean closeTutorial) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\LoginService.cs:line 22\r\n   at Tests.Selenium.ManagerEndpointsTests.TestSetup() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 35\r\n--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479993,
+      "stop": 1618937479993
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618937479993,
+      "stop": 1618937479993
+    }
+  ],
+  "links": [],
+  "start": 1618937437462,
+  "stop": 1618937480048
+}

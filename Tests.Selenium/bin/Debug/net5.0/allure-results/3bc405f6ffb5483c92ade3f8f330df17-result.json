@@ -1,0 +1,102 @@
+{
+  "uuid": "6e6f5bc3-32c9-44cd-bacb-ad1ef7139a9f-tr-0-1004",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на добавить знак Удалить, кликаем, подтверждаем "
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(text(), 'Тест')]/ancestor::tr//td[contains(text(), 'Бустон')]/ancestor::tr//span[contains( @class, 'delete' )]\"}\n  (Session info: chrome=90.0.4430.93)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.ManagerEndpointsTests.ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 86"
+  },
+  "stage": "finished",
+  "description": "Удаляем созданного Менеджера\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(text(), 'Тест')]/ancestor::tr//td[contains(text(), 'Бустон')]/ancestor::tr//span[contains( @class, 'delete' )]\"}\n  (Session info: chrome=90.0.4430.93)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.ManagerEndpointsTests.ManagerPageObject_DeleteCreatedManager_ManagerIsDeleted() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 86"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "de0ed91c657942688061c9f6b1e0f997-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620244416548,
+      "stop": 1620244447848
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620244416548,
+  "stop": 1620244447848
+}

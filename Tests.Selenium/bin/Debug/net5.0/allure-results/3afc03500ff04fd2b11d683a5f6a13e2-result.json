@@ -1,0 +1,102 @@
+{
+  "uuid": "04d4eb87-ed11-4997-99a4-e5837f376339-tr-0-1007",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.ManagerPageObjectMenu_FindAnyManager_NoDataFound",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.ManagerPageObjectMenu_FindAnyManager_NoDataFound",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ManagerPageObjectMenu_FindAnyManager_NoDataFound"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на добавить знак +, набираем название и выбираем страну или город, кликаем "
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "ManagerPageObjectMenu_FindAnyManager_NoDataFound",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=90.0.4430.93)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at Tests.Selenium.ManagerEndpointsTests.ManagerPageObjectMenu_FindAnyManager_NoDataFound() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 157"
+  },
+  "stage": "finished",
+  "description": "Добавляем нового Менеджера Бустон\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "ManagerPageObjectMenu_FindAnyManager_NoDataFound",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=90.0.4430.93)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at Tests.Selenium.ManagerEndpointsTests.ManagerPageObjectMenu_FindAnyManager_NoDataFound() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 157"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9d8bea7359bd45c19b810b9b52649336-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620251756018,
+      "stop": 1620251776784
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620251756018,
+  "stop": 1620251776784
+}

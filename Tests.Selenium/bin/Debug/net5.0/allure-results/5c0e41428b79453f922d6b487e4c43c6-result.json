@@ -1,0 +1,91 @@
+{
+  "uuid": "c89999b9-7372-4e03-8eae-2454c5ee1f84-tr-0-1001",
+  "historyId": "Tests.Selenium.TestClass.TestSetup",
+  "fullName": "Tests.Selenium.TestClass.TestSetup",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetup"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "TestSetup",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Pharmac\n",
+  "steps": [
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3a8a332e1daa4747ae47ea70ecf080c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1618684874991,
+      "stop": 1618684883313
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1618684874991,
+  "stop": 1618684883314
+}

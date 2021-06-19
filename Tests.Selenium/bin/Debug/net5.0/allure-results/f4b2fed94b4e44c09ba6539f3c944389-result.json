@@ -1,0 +1,98 @@
+{
+  "uuid": "944535c4-4591-42c8-802a-9c297179b2ed-tr-0-1001",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.LoginPage_LoginAsAdmin_IsLogined",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.LoginPage_LoginAsAdmin_IsLogined",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginPage_LoginAsAdmin_IsLogined"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "suite",
+      "value": "Логин и пароль при входе"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "LoginPage_LoginAsAdmin_IsLogined",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Заходим в приложение\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "LoginPage_LoginAsAdmin_IsLogined",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "92ddf00854574495a1388df174ffa309-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620086094726,
+      "stop": 1620086101307
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620086094725,
+  "stop": 1620086101321
+}

@@ -1,0 +1,91 @@
+{
+  "uuid": "a1bf22d3-c163-4f88-940b-b530c5a421d4-tr-0-1001",
+  "historyId": "Tests.Selenium.TestClass.TestSetup",
+  "fullName": "Tests.Selenium.TestClass.TestSetup",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetup"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "TestSetup",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Pharmac\n",
+  "steps": [
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c3106c7776534470bfc5eb6259282c2f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1618697957766,
+      "stop": 1618697965295
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1618697957766,
+  "stop": 1618697965296
+}

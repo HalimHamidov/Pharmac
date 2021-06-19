@@ -1,0 +1,98 @@
+{
+  "uuid": "4179b5ce-5618-4d37-aefb-6b1d8f52ae40-tr-0-1001",
+  "historyId": "Tests.Selenium.TestClass.TestSetup",
+  "fullName": "Tests.Selenium.TestClass.TestSetup",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetup"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "suite",
+      "value": "Добавление менеджеров в справочник, при создании"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "TestSetup",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Pharmac\nДобавление менеджеров в справочник, при создании\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c420360f29da407b8dd31d7d8c49d44c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1618699943054,
+      "stop": 1618699949831
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1618699943054,
+  "stop": 1618699949831
+}

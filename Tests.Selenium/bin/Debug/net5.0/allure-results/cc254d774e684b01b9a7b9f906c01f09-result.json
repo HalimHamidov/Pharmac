@@ -1,0 +1,98 @@
+{
+  "uuid": "880e17a9-daa0-44a8-96ff-9e6ee1934392-tr-0-1004",
+  "historyId": "Tests.Selenium.TestClass.ThirdTest",
+  "fullName": "Tests.Selenium.TestClass.ThirdTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "ThirdTest"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "ThirdTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[type='search']#rc_select_1\"}\n  (Session info: chrome=90.0.4430.72)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.TestClass.ThirdTest() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Program.cs:line 92"
+  },
+  "stage": "finished",
+  "description": "Auto-tests\n",
+  "steps": [
+    {
+      "name": "ThirdTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[type='search']#rc_select_1\"}\n  (Session info: chrome=90.0.4430.72)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.TestClass.ThirdTest() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Program.cs:line 92"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "48a3337dd781493f8905de5ae6ca1d9c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1618699949842,
+      "stop": 1618699989971
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1618699949842,
+  "stop": 1618699989971
+}

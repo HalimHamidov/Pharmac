@@ -1,0 +1,102 @@
+{
+  "uuid": "eec12932-0e1d-4261-84f5-cdef23681c45-tr-0-1003",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainMenu_CreateNewManager_IsCreated"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на добавить знак +, набираем название и выбираем страну или город, кликаем "
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "MainMenu_CreateNewManager_IsCreated",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(2) > div.ant-col.ant-form-item-control > div > div > span > div.ant-row.ant-form-item.ant-form-item-has-success > div > div > div > div > div > span.ant-select-selection-placeholder\"}\n  (Session info: chrome=90.0.4430.93)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 66"
+  },
+  "stage": "finished",
+  "description": "Добавляем нового Менеджера\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "MainMenu_CreateNewManager_IsCreated",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body > form > div:nth-child(2) > div.ant-col.ant-form-item-control > div > div > span > div.ant-row.ant-form-item.ant-form-item-has-success > div > div > div > div > div > span.ant-select-selection-placeholder\"}\n  (Session info: chrome=90.0.4430.93)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 66"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c8874181865a46d887dcccd744591bb8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620082702135,
+      "stop": 1620082735058
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620082702135,
+  "stop": 1620082735059
+}

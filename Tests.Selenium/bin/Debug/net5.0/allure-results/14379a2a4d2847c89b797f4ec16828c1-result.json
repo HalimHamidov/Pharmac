@@ -1,0 +1,102 @@
+{
+  "uuid": "f21976b9-724f-425a-a000-40eb33e5c5b6-tr-0-1002",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainMenu_NavigateToDictManagersMenu_IsOpen"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на справочники и менеджер. Перешли на страничку выбора менеджера"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SequentialTestCaseBroken",
+    "trace": "   at Tests.Selenium.BaseTestSequential.DoBeforeEach() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\BaseTestSequential.cs:line 72\r\n"
+  },
+  "stage": "finished",
+  "description": "\nDoBeforeEach SetUp method failed\nПереход в Менеджера\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "MainMenu_NavigateToDictManagersMenu_IsOpen skipped because of Start failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "SequentialTestCaseBroken",
+        "trace": "   at Tests.Selenium.BaseTestSequential.DoBeforeEach() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\BaseTestSequential.cs:line 72\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b71f320a69e743bba50bef84066dc0bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620244372617,
+      "stop": 1620244372634
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620244372617,
+  "stop": 1620244372635
+}

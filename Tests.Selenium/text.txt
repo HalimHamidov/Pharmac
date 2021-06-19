@@ -1,0 +1,117 @@
+https://scoop.sh/
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+iwr -useb get.scoop.sh | iex
+
+https://docs.qameta.io/allure/
+scoop install allure
+allure serve "D:\.Pharmac Project\PharmSln\Tests.Selenium\bin\Debug\net5.0\allure-results"
+
+http://192.168.181.145:54089/index.html#
+
+
+
+        // [Test(Description = "Первый тест")]
+        // [AllureSuite("Проверка входа в приложение")]
+        // [Description("Проверка входа в приложение")]
+        // [CustomRetry(3)]
+        // public void FirstTest()
+        // {
+        //     //Check the success login
+        //     Console.WriteLine("FirstTest");
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+        //     var alert = driver.FindElement(By.XPath(".//span[contains(text(), 'Вы успешно вошли в свой аккаунт')]"));
+        //     Assert.That(alert.Text, Does.Match("Вы успешно вошли в свой аккаунт"));
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+        // }
+
+
+
+        //  document.querySelector(".ant-select-selection-search-input")
+            // document.querySelector("rc_select_1_list_3")
+           // SelectElement cDD = new SelectElement(countryDDown);
+            //cDD.("Москва");  
+           //  Driver.FindElement(By.CssSelector("div.ant-select-selector input#rc_select_3")).Click();
+            // Assert.AreEqual("Москва", cDD.SelectedOption.Text);
+            // IWebElement countryDDown2 = Driver.FindElement(By.XPath("//input[contains(@aria-activedescendant, 'rc_select_1_list_4')]"));
+            // SelectElement cDD2 = new SelectElement(countryDDown2);
+            // cDD2.SelectByText("Москва");
+            // foreach (IWebElement option in countryDDown.FindElements(By.TagName("option")))
+            // {
+            //     if (option.Text.Equals("Душанбе"))     
+            //     {
+            //         option.Click();     
+            //     }
+            // }
+
+        //     //testDropDown.selectByIndex(1);
+
+        //     driver.FindElement(By.CssSelector("input#rc_select_6.ant-select-selection-search-input")).SendKeys("Душанбе");
+        //     //driver.FindElement(By.CssSelector("span.ant-select-selection-item[title='Москва']")).Click();
+        //     driver.FindElement(By.XPath("//button[2]/span[contains(text(), 'Добавить')]")).Click();
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20); 
+        //  var adminConsole = mainMenu.NavigateToAdminConsole();
+
+        //Open Login Page
+        //     driver = new ChromeDriver();
+        //     driver.Manage().Window.Maximize();
+        //     driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(30);
+        //     driver.Navigate().GoToUrl("https://doruhona.vercel.app/");
+
+        //     //Enter username and password
+        //     driver.FindElement(By.Id("username")).SendKeys("khurshed");
+        //     driver.FindElement(By.Id("password")).SendKeys("aA11111+");
+        //     Console.WriteLine("Enter UserName and Password");
+
+        //     //Click Login Page
+        //     driver.FindElement(By.CssSelector("button.ant-btn")).Click();
+        //     Console.WriteLine("Clicked Login Button");
+        // }
+
+        // [Test(Description = "1-й тест : Проверить Функционал справочника Менеджера")]
+        // [AllureSuite("Удаление и Добавление Тестового менеджера в справочник")]
+        // [Description("Удаление и Добавление в справочник, при создании менеджера")]
+        // [CustomRetry(3)]
+        // public void ManagerPage_CheckManagerEndpoints_ManagerDeleteAddCheckedTest()
+        // {
+        //     //check Manager and delete "Тестовый"
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+        //     Console.WriteLine("2nd Test");
+        //     var mainPage = driver.FindElement(By.XPath("//span[text()='Справочники']"));
+        //     mainPage.Click();
+        //     driver.FindElement(By.XPath("//a[contains(text(), 'Менеджеры')]")).Click();
+        //     driver.FindElement(By.XPath("//td[contains(text(), 'Тест')]/ancestor::tr//span[contains( @class, 'delete' )]")).Click();
+        //     driver.FindElement(By.XPath("//span[contains(text(), 'Удалить')]")).Click();
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+        //     var alertManagerDelete = driver.FindElement(By.XPath(".//span[contains(text(), 'Менеджер успешно удален')]"));
+        //     //Assert.That(alertManagerDelete.Text, Does.Match("Менеджер успешно удален"));
+
+        //     // Assert.AreEqual(alertManagerDelete.Text, "Менеджер успешно удален");
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+
+        //     //add the "Тестовый" manager
+        //     driver.FindElement(By.CssSelector("div.ant-card-extra>button > span + span")).Click();
+        //     driver.FindElement(By.CssSelector("input#name.ant-input")).SendKeys("Тест");
+        //    // driver.FindElement(By.CssSelector("input[type='search']#rc_select_1")).Click();
+
+        //     //testDropDown.selectByIndex(1);
+
+        //     driver.FindElement(By.CssSelector("input#rc_select_6.ant-select-selection-search-input")).SendKeys("Душанбе");
+        //     //driver.FindElement(By.CssSelector("span.ant-select-selection-item[title='Москва']")).Click();
+        //     driver.FindElement(By.XPath("//button[2]/span[contains(text(), 'Добавить')]")).Click();
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+        // }
+
+        // [TearDown]
+        // public void TestTearDown()
+        // {
+        //     //driver.Navigate().Refresh();
+        //     Thread.Sleep(3000);
+        //     driver.Quit();
+        // }
+
+
+            // Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+            // var alertManagerDelete = Driver.FindElement(By.XPath(".//span[contains(text(), 'Менеджер успешно удален')]"));
+            // Thread.Sleep(2000);
+            // Assert.That(alertManagerDelete.Text, Does.Match("Менеджер успешно удален"));
+            // Assert.AreEqual(alertManagerDelete.Text, "Менеджер успешно удален");

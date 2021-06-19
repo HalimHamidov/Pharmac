@@ -1,0 +1,44 @@
+{
+  "uuid": "6a5ae2bd-b006-4665-828d-eeb90c78f0b4-tc-0-1000",
+  "name": "Tests.Selenium.TestClass.SecondTest",
+  "children": [
+    "5bc446c7-5fd1-41bd-9c10-d1b10b015f32-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "TestSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618699655727,
+      "stop": 1618699655727
+    }
+  ],
+  "afters": [
+    {
+      "name": "TestTearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618699655727,
+      "stop": 1618699655727
+    }
+  ],
+  "links": [],
+  "start": 1618699649764,
+  "stop": 1618699655729
+}

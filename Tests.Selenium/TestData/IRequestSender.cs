@@ -1,0 +1,84 @@
+using System;
+using System.Collections.Generic;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.Holding;
+// using Tests.Selenium.TestData.Generator.ApiClient.ResponseDto;
+// using Tests.Selenium.TestData.Generator.ApiClient.ResponseDto.IssueResponse;
+// using Tests.Selenium.TestData.Generator.ApiClient.ResponseDto.MeetingResponse;
+using Tests.Selenium.TestData.Models;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.Issue;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.Decision;
+// using Tests.Selenium.TestData.Models.Enum;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.Voting;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.WrittenOpinion;
+// using Tests.Selenium.TestData.Generator.ApiClient.Dto.CustomField;
+// using Tests.Selenium.TestData.Generator.ApiClient.ResponseDto.UserResponse;
+using Tests.Selenium.TestData.Dto;
+
+namespace Tests.Selenium.TestData
+{
+    public interface IRequestSender
+    {
+        // Guid CreateIssue(Dto.Issue.Issue issue);
+        // Guid CreateMaterial(Guid collegialBodyId, string path, bool encrypt = false, string fileName = null);
+        // Guid CreateInstructionMaterial(Guid collegialBodyId, string path, bool encrypt = false);
+        // bool ChangeStateIssue(Guid issueId, IssueStatus state, Dto.Issue.IssueWorkflow issueWorkflow);
+        // bool SendIssueOnReview(Guid issueId);
+        // bool UnlockIssue(Guid issueId);
+        // Guid CreateMeeting(Dto.Meeting.Meeting meeting);
+        // Guid CreateAbsentiaMeeting(Dto.Meeting.MeetingAbsentia meeting);
+        // void DeleteMeeting(Guid meetingId);
+        // bool RollBackMeeting(Guid meetingId);
+        // MeetingDto GetMeeting(Guid meetingId);
+        // IssueStatusResponse GetIssueStatus(Guid issueVersionId);
+        // Guid GetIssueVersionId(Guid issueId);
+        // bool DeleteIssue(Guid issueId);
+        // bool SelectActionMeeting(Guid meetingId, MeetingActions action);
+        // void ModifyIssuesFromMeeting(Guid meetingId, IssuesList issues);
+        // Guid CreateInstruction(Dto.Instruction.Instruction instruction);
+        Guid CreateUser(Dto.Person user);
+        // bool SetUserInsiderFlags(ApiClient.Dto.User.Insider insider);
+       // bool SetInternalLoginPassword(Dto.LocalLogin user, Guid userId);
+        // Guid CreateHolding(Dto.Holding.HoldingName holding);
+        // bool CheckHoldingId(Guid holdingId);
+        // bool FinishIssueReview(Guid issueId);
+        // bool CheckHoldingNameById(Guid holdingId, string name);
+        // Guid CheckHoldingName(string name);
+        // bool RenameHolding(Guid holdingId, Dto.Holding.HoldingName holding);
+        // Guid CheckCompanyName(string name, Guid holdingId);
+        // bool CheckCompanyNameById(string name, Guid companyId, Guid holdingId);
+        // bool CheckCompanyId(Guid companyId, Guid holdingId);
+        // Guid CreateCompany(Dto.Company.Company company);
+        // void RenameCompany(Guid companyId, Dto.Company.Company company);
+        // Guid GetHoldingIdByCompanyId(Guid companyId);
+        // bool CheckCollegialBodyNameById(Guid collegialBodyId, string collegialBodyName);
+        // bool SetCollegialBodySettings(Object settingsDto, Guid collegialBodyId, Models.CollegialBodyModel.Settings.CollegialBodySettingsType settingsType);
+        // Guid SetCollegialBodyMaterialTemplate(string path, MaterialTemplateCategory materialTemplate, Guid collegialBodyId);
+        // Guid CheckCollegialBodyId(Guid collegialBodyId);
+        // Guid CreateCollegialBody(Dto.CollegialBody.CollegialBody collegialBody);
+        // Guid RenameCollegialBody(Dto.CollegialBody.CollegialBody collegialBody);
+        // ResponseDto.UserResponse.UserItem FetchUser(string userName, string query = "");
+        // bool CreateMember(Dto.Member.Members member, Guid collegialBodyId);
+        // bool ModifyRoleMember(Dto.Member.Role role, Guid collegialBodyId, Guid memberId);
+        // IEnumerable<ResponseDto.CollegialBodyDto.CollegialBodyMember> GetCollegialBodyMembers(Guid collegialBodyId);
+        // IEnumerable<ResponseDto.CollegialBodyDto.CollegialBodyMember> GetReviewers(Guid collegialBodyId, User user);
+        // IEnumerable<EmployeeItem> GetEmployees(string query);
+        // IEnumerable<Guid> GetMeetingParticipants(Guid meetingId);
+        // bool MarkPresenceParticipant(Guid issueVersionId, Attendees attendees);
+        // bool AcceptIssue(Guid issueId, bool withForce);
+        // IEnumerable<Guid> GetDecisionIdsByMeeting(Guid meetingId);
+        // void SendOnApproveDecision(Guid decisionId, ApproveDecisionDTO approveDecisionDTO);
+        // Guid GetVotingIdByIssueVersion(Guid issueVersionId);
+        // void VoteIssue(Guid votingId, VoteDTO voteDTO);
+        // void FormWrittenOpinion(Guid meetingId, WrittenOpinionDto opinionDto);
+        // void FormProtocol(Guid meetingId, Dto.Meeting.MeetingProtocolDto opinionDto);
+        // void SignProtocol(Guid meetingId, Guid protocolId, int protocolVersion);
+        // IEnumerable<ResponseDto.CustomField.CollegialBodyCustomFieldItem> GetCollegialBodyCustomField(Guid collegialBodyId);
+        // IEnumerable<ResponseDto.CustomField.CustomFieldSetting> GetCustomField();
+        // bool ApproveIssueInReview(Guid issueVersionId, Guid userId, RootCoordinationDto rootCoordinationDto);
+        // bool CreateCustomField(CustomFieldDto customFieldDto);
+        // IEnumerable<ResponseDto.Notification.NotificationItem> GetNotifications(int count);
+        // bool AddAlternates(Guid collegialBodyId, Guid MemberId, Dto.Member.AlternatesDto alternate);
+        // IEnumerable<IssueReviewStep> GetReviewSteps(Guid issueVersionId);
+        // bool SendReviewDecision(Guid coordinationId, IssueReviewDecisionDto issueReviewDecisionDto);
+    }
+}

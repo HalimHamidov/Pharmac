@@ -1,0 +1,63 @@
+{
+  "uuid": "5c275021-dda0-4cc7-ba64-a9508feec3c7-tr-0-1003",
+  "historyId": "Tests.Selenium.TestClass.SecondTest",
+  "fullName": "Tests.Selenium.TestClass.SecondTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.TestClass"
+    },
+    {
+      "name": "testMethod",
+      "value": "SecondTest"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.TestClass"
+    }
+  ],
+  "links": [],
+  "name": "SecondTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SecondTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c68d552e9c0d47508961be0945162b3e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1618697952387,
+      "stop": 1618697957764
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1618697952387,
+  "stop": 1618697957765
+}

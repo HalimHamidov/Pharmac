@@ -1,0 +1,102 @@
+{
+  "uuid": "820e69d1-2beb-411e-a50a-f240a25d88af-tr-0-1003",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainMenu_CreateNewManager_IsCreated"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на добавить знак +, набираем название и выбираем страну или город, кликаем "
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "MainMenu_CreateNewManager_IsCreated",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.Support.UI.UnexpectedTagNameException : Element should have been select but was span",
+    "trace": "   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 67"
+  },
+  "stage": "finished",
+  "description": "Добавляем нового Менеджера\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "MainMenu_CreateNewManager_IsCreated",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.Support.UI.UnexpectedTagNameException : Element should have been select but was span",
+        "trace": "   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreated() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 67"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a153f4321a4f4a4cb1b3698b0b0cc24b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620086101397,
+      "stop": 1620086103153
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620086101397,
+  "stop": 1620086103153
+}

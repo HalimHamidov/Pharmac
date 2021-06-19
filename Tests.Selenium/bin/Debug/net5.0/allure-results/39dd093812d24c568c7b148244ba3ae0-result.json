@@ -1,0 +1,98 @@
+{
+  "uuid": "80a3d114-08d4-485a-8175-7cf93a3e57ec-tr-0-1005",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreatedInCity3",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.MainMenu_CreateNewManager_IsCreatedInCity3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainMenu_CreateNewManager_IsCreatedInCity3"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на добавить знак +, набираем название и выбираем страну или город, кликаем "
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "MainMenu_CreateNewManager_IsCreatedInCity3",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Добавляем нового Менеджера Бустон\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "MainMenu_CreateNewManager_IsCreatedInCity3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2bf1f6ec506349e1807ab35e9a0e0254-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1620250564659,
+      "stop": 1620250571968
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1620250564659,
+  "stop": 1620250571969
+}

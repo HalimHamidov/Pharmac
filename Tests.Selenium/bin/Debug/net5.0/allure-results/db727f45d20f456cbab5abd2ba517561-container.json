@@ -1,0 +1,110 @@
+{
+  "uuid": "0048c42a-bb50-4f17-a6e3-cb2ca9738efb-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.ManagerPage_CheckManagerEndpoints_ManagerDeleteAddCheckedTest",
+  "children": [
+    "e94d7a55-ad96-4987-a3f4-4bb699715dbc-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714000,
+      "stop": 1618892714000
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714000,
+      "stop": 1618892714000
+    },
+    {
+      "name": "TestSetup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NotFoundException : Cannot find out that app in specific location: https://doruhona.vercel.app//signin\r\n  ----> OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 31\r\n   at Tests.Selenium.PageObjects.LoginPageObject..ctor(IWebDriver webDriver) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\LoginPageObject.cs:line 19\r\n   at Tests.Selenium.Services.LoginService.Login(IWebDriver driver, String login, String password, Action screenshotAction, Boolean closeTutorial) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\LoginService.cs:line 22\r\n   at Tests.Selenium.ManagerEndpointsTests.TestSetup() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 35\r\n--WebDriverTimeoutException\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 27\r\n--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714000,
+      "stop": 1618892714000
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714001,
+      "stop": 1618892714001
+    },
+    {
+      "name": "TestTearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NotFoundException : Cannot find out that app in specific location: https://doruhona.vercel.app//signin\r\n  ----> OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 31\r\n   at Tests.Selenium.PageObjects.LoginPageObject..ctor(IWebDriver webDriver) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\LoginPageObject.cs:line 19\r\n   at Tests.Selenium.Services.LoginService.Login(IWebDriver driver, String login, String password, Action screenshotAction, Boolean closeTutorial) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\LoginService.cs:line 22\r\n   at Tests.Selenium.ManagerEndpointsTests.TestSetup() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 35\r\n--WebDriverTimeoutException\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.ShouldLocate(IWebDriver webDriver, String location) in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 27\r\n--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in D:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714001,
+      "stop": 1618892714001
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1618892714001,
+      "stop": 1618892714001
+    }
+  ],
+  "links": [],
+  "start": 1618892650210,
+  "stop": 1618892714032
+}

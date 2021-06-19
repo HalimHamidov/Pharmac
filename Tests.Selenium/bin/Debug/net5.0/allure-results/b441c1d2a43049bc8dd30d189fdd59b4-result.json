@@ -1,0 +1,102 @@
+{
+  "uuid": "26938901-0444-4bf5-bdd8-ff86366e56d6-tr-0-1002",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainMenu_NavigateToDictManagersMenu_IsOpen"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "subSuite",
+      "value": "Нажимаем на справочники и менеджер. Перешли на страничку выбора менеджера"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "MainMenu_NavigateToDictManagersMenu_IsOpen",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at OpenQA.Selenium.Support.UI.ExpectedConditions.ElementIfVisible(IWebElement element)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.WaitElement(IWebDriver webDriver, By locator, Int32 seconds) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 71\r\n   at Tests.Selenium.PageObjects.MainMenu.MainMenuPageObject..ctor(IWebDriver webDriver) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\MainMenu\\MainMenuPageObject.cs:line 42\r\n   at Tests.Selenium.Services.NavigationService.NavigateToDictManagers(IWebDriver webDriver) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\NavigationService.cs:line 15\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 48"
+  },
+  "stage": "finished",
+  "description": "Переход в Менеджера\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "MainMenu_NavigateToDictManagersMenu_IsOpen",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Support.UI.ExpectedConditions.ElementIfVisible(IWebElement element)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Tests.Selenium.ShouldHelper.WaitElement(IWebDriver webDriver, By locator, Int32 seconds) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\ShouldHelper.cs:line 71\r\n   at Tests.Selenium.PageObjects.MainMenu.MainMenuPageObject..ctor(IWebDriver webDriver) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\PageObjects\\MainMenu\\MainMenuPageObject.cs:line 42\r\n   at Tests.Selenium.Services.NavigationService.NavigateToDictManagers(IWebDriver webDriver) in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Services\\NavigationService.cs:line 15\r\n   at Tests.Selenium.ManagerEndpointsTests.MainMenu_NavigateToDictManagersMenu_IsOpen() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 48"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ede098201a714d49a35b68bc6cf098c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1619367006434,
+      "stop": 1619367013578
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1619367006433,
+  "stop": 1619367013588
+}

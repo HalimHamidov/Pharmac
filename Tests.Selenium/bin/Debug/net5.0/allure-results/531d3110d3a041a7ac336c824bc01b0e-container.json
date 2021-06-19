@@ -1,0 +1,93 @@
+{
+  "uuid": "c1bcc506-06e2-451e-a4c9-092e12be8121-tc-0-1000",
+  "name": "Tests.Selenium.ManagerEndpointsTests.TestSetup",
+  "children": [
+    "95116156-a769-45b7-be32-1cb2a9ab1ddc-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Start",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1619364642932,
+      "stop": 1619364642932
+    },
+    {
+      "name": "DoBeforeEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1619364642932,
+      "stop": 1619364642932
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1619364642932,
+      "stop": 1619364642932
+    },
+    {
+      "name": "TestTearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 94"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1619364642932,
+      "stop": 1619364642932
+    },
+    {
+      "name": "DoAfterEach",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1619364642933,
+      "stop": 1619364642933
+    }
+  ],
+  "links": [],
+  "start": 1619364632072,
+  "stop": 1619364642960
+}

@@ -1,0 +1,102 @@
+{
+  "uuid": "95116156-a769-45b7-be32-1cb2a9ab1ddc-tr-0-1001",
+  "historyId": "Tests.Selenium.ManagerEndpointsTests.TestSetup",
+  "fullName": "Tests.Selenium.ManagerEndpointsTests.TestSetup",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUAWEI"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetup"
+    },
+    {
+      "name": "package",
+      "value": "Tests.Selenium.ManagerEndpointsTests"
+    },
+    {
+      "name": "owner",
+      "value": "Halim"
+    },
+    {
+      "name": "tag",
+      "value": "PHAR-T1"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "suite",
+      "value": "Логин и пароль при входе"
+    },
+    {
+      "name": "epic",
+      "value": "Вопрос"
+    },
+    {
+      "name": "feature",
+      "value": "Менеджер"
+    },
+    {
+      "name": "story",
+      "value": "Добавление менеджеров в справочник"
+    }
+  ],
+  "links": [
+    {
+      "name": "PHAR-T1",
+      "url": "https://pharmaci.atlassian.net/projects/PHAR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/PHAR-T1",
+      "type": "issue"
+    }
+  ],
+  "name": "TestSetup",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 94"
+  },
+  "stage": "finished",
+  "description": "\nTestTearDown TearDown method failed\nЗаходим в приложение\nAuto-tests\n",
+  "steps": [
+    {
+      "name": "TestSetup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "--TearDown\r\n   at Tests.Selenium.ManagerEndpointsTests.TestTearDown() in d:\\.Pharmac Project\\PharmSln\\Tests.Selenium\\Tests\\ManagerEndpointsTests.cs:line 94"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e9744bd7fbfc4b0c93b1c621da172e7d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1619364632076,
+      "stop": 1619364642936
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1619364632075,
+  "stop": 1619364642940
+}
